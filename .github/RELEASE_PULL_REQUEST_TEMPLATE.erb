@@ -1,0 +1,6 @@
+## 🚀 Release v${VERSION}
+
+以下のPRが含まれています:
+<% pull_requests.each do |pr| -%>
+- <%= pr.title %> [#<%= pr.number %>](<%= pr.html_url %>)
+<% end -%>
